@@ -4,6 +4,9 @@ import FlareIcon from '@mui/icons-material/Flare';
 import { Button } from "@mui/material";
 import NTHULOGO from "./NTHU.png";
 import IMTLABLOGO from "./IMTLAB.png";
+import background_machine from "./background_machine.jpg";
+import background_machine_outside from "./background_machine_outside.jpg";
+import ReactPlayer from "react-player";
 
 const useHooks = () => {
   const [language, setLanguage] = React.useState("繁體中文");
@@ -89,6 +92,20 @@ const useHooks = () => {
     );
   };
 
+  const CommonPlayer = ({ url }) => (
+    <div
+      className="video-container-rwd"
+    >
+      <ReactPlayer
+        className="video-rwd"
+        url={url}
+        controls
+        width="80%"
+        height="60%"
+      />
+    </div>
+  );
+
   const CommonSpan = ({ children }) => (
     <span
       style={{
@@ -132,7 +149,7 @@ const useHooks = () => {
               alt="NTHULOGO"
               style={{
                 width: "200px",
-                marginBottom: "5px",
+                marginBottom: "10px",
               }}
             />
           <img 
@@ -168,7 +185,7 @@ const useHooks = () => {
           >
             <span className="footer-span-small-rwd">學生 (Student)</span>
             <CommonSpan>吳承穎, Daniel Wu </CommonSpan>
-            <CommonSpan>黃毓勳, Oustin Huang</CommonSpan>
+            <CommonSpan>黃毓勛, Austin Huang</CommonSpan>
             <CommonSpan>高尚祐, Sam Gao</CommonSpan>
           </div>
         </div>
@@ -195,12 +212,14 @@ const useHooks = () => {
     AlertModel,
     open,
     language,
-    Footer
+    Footer,
+    CommonPlayer
   };
 };
 
 const App = () => {
-  const { AlertModel, open, language, Footer } = useHooks();
+  const { AlertModel, open, language, Footer, CommonPlayer } = useHooks();
+
   return (
     <div
       style={{
@@ -211,6 +230,30 @@ const App = () => {
         minHeight: "100vh"
       }}
     >
+      <img
+        src={background_machine}
+        alt="machine"
+        style={{
+          position: "fixed",
+          width: "100%",
+          top: 0,
+          left: 0,
+          zIndex: -1,
+          opacity: 0.1,
+        }}
+      />
+      <img
+        src={background_machine_outside}
+        alt="machine"
+        style={{
+          position: "fixed",
+          width: "100%",
+          bottom: 0,
+          right: 0,
+          zIndex: -2,
+          opacity: 0.05,
+        }}
+      />
       <div
         className="App"
         style={{
@@ -253,6 +296,11 @@ const App = () => {
             <h2>
               影片展示
             </h2>
+            <CommonPlayer url={require('./introduction.mp4')} />
+            <h2>
+              製作過程
+            </h2>
+            <CommonPlayer url={require('./Future_TECH.mp4')} />
           </>
         ) : (
           <>
@@ -290,6 +338,11 @@ const App = () => {
             <h2>
               Application Demonstration
             </h2>
+            <CommonPlayer url={require('./introduction.mp4')} />
+            <h2>
+              Manufacturing Process
+            </h2>
+            <CommonPlayer url={require('./Future_TECH.mp4')} />
           </>
         )}
       </div>

@@ -55,6 +55,15 @@
   font-weight: bold;
 }
 
+.video-container-rwd {
+  max-width: 60%;
+  max-height: 40%;
+  margin: auto;
+}
+
+.video-rwd {
+  margin: 20px auto;
+}
 
 @media (max-width: 768px) {
   .footer-above {
@@ -64,5 +73,10 @@
 
   .footer-span-small-rwd {
     margin-top: 10px;
+  }
+
+  .video-container-rwd {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
