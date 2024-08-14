@@ -201,8 +201,8 @@ const useHooks = () => {
           }}
         >
           <COmmonSpanWidth>E-mail: mtlee(a)pme.nthu.edu.tw</COmmonSpanWidth>
-          <COmmonSpanWidth>Office phone number: 03-5742497</COmmonSpanWidth>
-          <COmmonSpanWidth>Lab phone number: 03-5715131#33733</COmmonSpanWidth>
+          <COmmonSpanWidth>Office tel number: 03-5742497</COmmonSpanWidth>
+          <COmmonSpanWidth>Lab tel number: 03-5715131#33733</COmmonSpanWidth>
         </div>
       </div>
     );
