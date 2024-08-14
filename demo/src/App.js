@@ -122,7 +122,7 @@ const useHooks = () => {
     <span
       style={{
         fontSize: "16px",
-        margin: "0 5px",
+        margin: "5px",
         width: "100%",
         textAlign: "center"
       }}
