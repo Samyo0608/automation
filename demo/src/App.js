@@ -297,10 +297,10 @@ const App = () => {
               影片展示
             </h2>
             <CommonPlayer url={require('./introduction.mp4')} />
-            <h2>
+            {/* <h2>
               製作過程
             </h2>
-            <CommonPlayer url={require('./Future_TECH.mp4')} />
+            <CommonPlayer url={require('./Future_TECH.mp4')} /> */}
           </>
         ) : (
           <>
@@ -339,10 +339,10 @@ const App = () => {
               Application Demonstration
             </h2>
             <CommonPlayer url={require('./introduction.mp4')} />
-            <h2>
+            {/* <h2>
               Manufacturing Process
             </h2>
-            <CommonPlayer url={require('./Future_TECH.mp4')} />
+            <CommonPlayer url={require('./Future_TECH.mp4')} /> */}
           </>
         )}
       </div>
