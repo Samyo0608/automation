@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/automation/static/css/main.e4e1ac91.css",
-    "main.js": "/automation/static/js/main.20c15a98.js",
+    "main.js": "/automation/static/js/main.3151e070.js",
     "reactPlayerYouTube.js": "/automation/static/js/reactPlayerYouTube.1dba9a92.chunk.js",
     "reactPlayerSoundCloud.js": "/automation/static/js/reactPlayerSoundCloud.7af93a3d.chunk.js",
     "reactPlayerVimeo.js": "/automation/static/js/reactPlayerVimeo.31eccbdd.chunk.js",
@@ -19,12 +19,14 @@
     "static/js/453.f3bb842a.chunk.js": "/automation/static/js/453.f3bb842a.chunk.js",
     "static/media/introduction.mp4": "/automation/static/media/introduction.3a2d72ea118cfdab3446.mp4",
     "static/media/example01.mp4": "/automation/static/media/example01.570113a8cbbf04c714dc.mp4",
+    "static/media/example03.mp4": "/automation/static/media/example03.fbcda6ac1a1fc8664504.mp4",
+    "static/media/example02.mp4": "/automation/static/media/example02.791a09bce6b09e319dee.mp4",
     "static/media/background_machine.jpg": "/automation/static/media/background_machine.cd4259bb906228ba7f2b.jpg",
     "static/media/background_machine_outside.jpg": "/automation/static/media/background_machine_outside.bcdb05a6c1fafc7e6aa7.jpg",
     "static/media/NTHU.png": "/automation/static/media/NTHU.436dc14ad3c3079abbd3.png",
     "index.html": "/automation/index.html",
     "main.e4e1ac91.css.map": "/automation/static/css/main.e4e1ac91.css.map",
-    "main.20c15a98.js.map": "/automation/static/js/main.20c15a98.js.map",
+    "main.3151e070.js.map": "/automation/static/js/main.3151e070.js.map",
     "reactPlayerYouTube.1dba9a92.chunk.js.map": "/automation/static/js/reactPlayerYouTube.1dba9a92.chunk.js.map",
     "reactPlayerSoundCloud.7af93a3d.chunk.js.map": "/automation/static/js/reactPlayerSoundCloud.7af93a3d.chunk.js.map",
     "reactPlayerVimeo.31eccbdd.chunk.js.map": "/automation/static/js/reactPlayerVimeo.31eccbdd.chunk.js.map",
@@ -43,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.e4e1ac91.css",
-    "static/js/main.20c15a98.js"
+    "static/js/main.3151e070.js"
   ]
 }
