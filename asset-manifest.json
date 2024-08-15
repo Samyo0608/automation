@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/automation/static/css/main.e4e1ac91.css",
-    "main.js": "/automation/static/js/main.371dd161.js",
+    "main.js": "/automation/static/js/main.64b9d797.js",
     "reactPlayerYouTube.js": "/automation/static/js/reactPlayerYouTube.1dba9a92.chunk.js",
     "reactPlayerSoundCloud.js": "/automation/static/js/reactPlayerSoundCloud.7af93a3d.chunk.js",
     "reactPlayerVimeo.js": "/automation/static/js/reactPlayerVimeo.31eccbdd.chunk.js",
@@ -17,14 +17,13 @@
     "reactPlayerFilePlayer.js": "/automation/static/js/reactPlayerFilePlayer.2c3aa1bd.chunk.js",
     "reactPlayerPreview.js": "/automation/static/js/reactPlayerPreview.18ce4ea8.chunk.js",
     "static/js/453.f3bb842a.chunk.js": "/automation/static/js/453.f3bb842a.chunk.js",
-    "static/media/Future_TECH.mp4": "/automation/static/media/Future_TECH.7dccc9f91d9f9bf3d466.mp4",
-    "static/media/introduction.mp4": "/automation/static/media/introduction.cda8361e77a9361471f5.mp4",
+    "static/media/introduction.mp4": "/automation/static/media/introduction.3a2d72ea118cfdab3446.mp4",
     "static/media/background_machine.jpg": "/automation/static/media/background_machine.cd4259bb906228ba7f2b.jpg",
     "static/media/background_machine_outside.jpg": "/automation/static/media/background_machine_outside.bcdb05a6c1fafc7e6aa7.jpg",
     "static/media/NTHU.png": "/automation/static/media/NTHU.436dc14ad3c3079abbd3.png",
     "index.html": "/automation/index.html",
     "main.e4e1ac91.css.map": "/automation/static/css/main.e4e1ac91.css.map",
-    "main.371dd161.js.map": "/automation/static/js/main.371dd161.js.map",
+    "main.64b9d797.js.map": "/automation/static/js/main.64b9d797.js.map",
     "reactPlayerYouTube.1dba9a92.chunk.js.map": "/automation/static/js/reactPlayerYouTube.1dba9a92.chunk.js.map",
     "reactPlayerSoundCloud.7af93a3d.chunk.js.map": "/automation/static/js/reactPlayerSoundCloud.7af93a3d.chunk.js.map",
     "reactPlayerVimeo.31eccbdd.chunk.js.map": "/automation/static/js/reactPlayerVimeo.31eccbdd.chunk.js.map",
@@ -43,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.e4e1ac91.css",
-    "static/js/main.371dd161.js"
+    "static/js/main.64b9d797.js"
   ]
 }
