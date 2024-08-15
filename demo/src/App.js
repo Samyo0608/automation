@@ -297,6 +297,10 @@ const App = () => {
               影片展示
             </h2>
             <CommonPlayer url={require('./introduction.mp4')} />
+            <h2>
+              操作範例
+            </h2>
+            <CommonPlayer url={require('./example01.mp4')} />
             {/* <h2>
               製作過程
             </h2>
@@ -339,6 +343,10 @@ const App = () => {
               Application Demonstration
             </h2>
             <CommonPlayer url={require('./introduction.mp4')} />
+            <h2>
+              Operation Example
+            </h2>
+            <CommonPlayer url={require('./example01.mp4')} />
             {/* <h2>
               Manufacturing Process
             </h2>
